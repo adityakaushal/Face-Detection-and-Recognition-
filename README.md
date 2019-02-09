@@ -7,7 +7,7 @@ Facial Recognition or Face Detector can be used to know whether a persons Identi
 Implementation of OpenCV HAAR CASCADES
 I'm using the "Frontal Face Alt" Classifier for detecting the presence of Face in the WebCam. This file is included with this repository. You can find the other classifiers here.
 
-Next, we have the task to load this file, which can be found in the label.py program. E.g.: 
+E.g.: 
 We load the xml file
 classifier = cv2.CascadeClassifier('haarcascade_frontalface_alt.xml')
 
